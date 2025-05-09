@@ -708,6 +708,7 @@ nav {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  justify-items: center; /* Centers cards in the grid */
 }
 
 .project-card {
@@ -718,6 +719,7 @@ nav {
   text-align: left;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .project-card:hover {
@@ -927,6 +929,24 @@ footer ul li a:hover {
   header .visit-btn {
     display: none;
   }
+  #profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: auto;
+  padding: 5rem 10%;
+  box-sizing: border-box;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section_pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto; /* This is key for centering */
+}
   
 }
 

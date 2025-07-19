@@ -500,6 +500,7 @@ nav {
 /*NOTE:Experience*/
 /* Experience Section */
 
+<<<<<<< HEAD
 .experience {
   padding: 80px 20px;
 }
@@ -616,6 +617,125 @@ nav {
   color: #555;
   line-height: 1.6;
 }
+=======
+  .experience {
+    padding: 80px 20px;
+  }
+
+  .experience-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #2d2d2d;
+    position: relative;
+  }
+
+  .section-title::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #1c1c1c);
+    border-radius: 2px;
+  }
+
+  .experience-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    transition: transform 0.3s ease;
+    margin-bottom: 30px; /* Add this line */
+  }
+
+  .experience-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .experience-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .experience-icon {
+    min-width: 5rem; /* Increased from 3.75rem to 5rem (80px) */
+    height: 5rem; /* Increased from 3.75rem to 5rem (80px) */
+    border-radius: 50%;
+    margin-right: 1.25rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #333333;  */
+  }
+
+  .experience-icon img {
+    width: 80%; /* Makes the image fill most of the circle */
+    height: 80%; /* Makes the image fill most of the circle */
+    object-fit: contain;
+  }
+
+  .experience-title {
+    flex: 1;
+  }
+
+  .experience-type {
+    display: inline-block;
+    background: #e3f2fd;
+    color: #3498db;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .experience-title h3 {
+    font-size: 1.5rem;
+    color: #2d2d2d;
+    margin: 5px 0;
+  }
+
+  .experience-title h4 {
+    font-size: 1rem;
+    color: #7f8c8d;
+    font-weight: 500;
+  }
+
+  .experience-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .experience-list li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .experience-list li i {
+    /* color: #ec1313; */
+    margin-right: 10px;
+    margin-top: 3px;
+    font-size: 0.9rem;
+  }
+
+  .experience-list li span {
+    color: #555;
+    line-height: 1.6;
+  }
+>>>>>>> master
 /*NOTE About Section */
 #about {
   padding: 80px 0;
